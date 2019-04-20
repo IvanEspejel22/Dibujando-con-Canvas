@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="index.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Dibujando en Canvas</h1>
+    <div id="cuerpo">
+        <div id="formu">
+            <p> Cuantas líneas desea que tenga su dibujo:<br></p>
+            <input type="number" name="firstname" id="linea"><br>
+            <p>De que color desea su dibujo (in english):<br></p>
+            <input type="text" name="lastname" id="color"><br><br>
+            <button type="button" onclick="dibujo()">Wacha</button> 
+        </div>
+        <div id="dibujote">
+            <canvas width="500px" height="500px" id="dibujito"></canvas>
+        </div>
+    </div>
+    <script src="canvas.js"></script>
+</body>
+</html>
